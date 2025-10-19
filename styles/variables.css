@@ -3,3 +3,7 @@
     --brand-light: #DCCA87;
     --brand-dark-gray: #0C0C0C;
 }
+
+body{
+    font-family: Cormorant Upright;
+}
