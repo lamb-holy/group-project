@@ -98,7 +98,49 @@
 
 /* 2 block */
 
+.AboutUs_History > .container{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-image: url("./src/image/background.webp");
+}
 
+.aboutUs{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 523px;
+    gap: 32px;
+}
+
+.ourHistory{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 523px;
+    gap: 32px;
+}
+
+.AboutUs_History-tittle{
+    font-family: Cormorant Upright;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+    color: var(--brand-light);
+}
+
+.AboutUs_History-tittle{
+    width: 523px;
+}
+
+.AboutUs_History-btn{
+    width: 141px;
+    height: 44px;
+    font-family: Cormorant Upright;
+    color: black;
+    background-color: var(--brand-light);
+}
 
 
 /* 3 block */
