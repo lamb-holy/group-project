@@ -103,8 +103,10 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-around;
     background-image: url("../src/images/background.webp");
 }
+
 
 .aboutUs{
     display: flex;
@@ -120,6 +122,11 @@
     justify-content: flex-start;
     width: 523px;
     gap: 32px;
+}
+
+.AboutUs_History-top{
+    display flex;
+    gap: 30px;
 }
 
 .AboutUs_History-tittle{
@@ -140,12 +147,76 @@
     font-family: Cormorant Upright;
     color: black;
     background-color: var(--brand-light);
+    border: none;
 }
 
 
 /* 3 block */
+.table > .container{
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
 
 
+.window{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1364px;
+    height: 466px;
+}
+
+.BookATable{
+    display: flex;
+    justify-content: center;
+}
+
+.BookATable h3{
+    font-family: Cormorant Upright;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    color: white;
+}
+
+.BookATable h2{
+    font-family: Cormorant Upright;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+    color: var(--brand-light)
+}
+
+.table-form{
+    display: flex;
+    gap: 32px;
+    flex-direction: row;
+}
+
+.form{
+    width: 412px;
+    height: 60px;
+    background-color: var(--background-color);
+    border: solid 1px var(--brand-light);
+    color: var(--gray-text);
+    font-family: Cormorant Upright;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 175%;
+}
+
+.table-btn{
+    width: 133px;
+    height: 44px;
+    background-color: var(--brand-light);
+    border: none;
+    font-family: Cormorant Upright;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 175%;
+    color: black;
+}
 
 /* 4 block */
 
