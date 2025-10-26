@@ -103,7 +103,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-image: url("./src/image/background.webp");
+    background-image: url("../src/images/background.webp");
 }
 
 .aboutUs{
