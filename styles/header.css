@@ -1,0 +1,52 @@
+header > .container {
+    display: flex;
+    justify-content: space-between;
+    font-family: Open Sans;
+    margin: 40px;
+    width: auto;
+    height: 30px;
+}
+
+.header-logo {
+    font-family: Cormorant Upright;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 130%;
+    letter-spacing: 4%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.header-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 30px;
+}
+
+.header-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 4%;
+    text-decoration: none;
+    color: white;
+}
+
+.login {
+    display: flex;
+    flex-direction: row;
+    gap: 47px;
+}
+
+.login > a {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 5%;
+    text-decoration: none;
+    color: white;
+    margin-top: 13px;
+}
