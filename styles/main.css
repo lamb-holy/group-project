@@ -100,6 +100,7 @@
 
 .AboutUs_History > .container{
     width: auto;
+    height: 960px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -125,7 +126,8 @@
 }
 
 .AboutUs_History-top{
-    display flex;
+    display: flex;
+    flex-direction: column;
     gap: 30px;
 }
 
