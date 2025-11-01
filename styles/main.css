@@ -125,7 +125,7 @@
 }
 
 .AboutUs_History-top{
-    display flex;
+    display: flex;
     gap: 30px;
 }
 
