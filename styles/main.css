@@ -112,6 +112,7 @@
 .aboutUs{
     display: flex;
     flex-direction: column;
+    text-align: end;
     justify-content: flex-end;
     width: 523px;
     gap: 32px;
@@ -143,7 +144,21 @@
     width: 523px;
 }
 
-.AboutUs_History-btn{
+.AboutUs-spoon{
+    margin-left: 400px;
+}
+
+.AboutUs_History-btn1{
+    width: 141px;
+    height: 44px;
+    font-family: Cormorant Upright;
+    color: black;
+    background-color: var(--brand-light);
+    border: none;
+    margin-left: 400px;
+}
+
+.AboutUs_History-btn2{
     width: 141px;
     height: 44px;
     font-family: Cormorant Upright;
