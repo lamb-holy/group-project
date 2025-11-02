@@ -237,7 +237,41 @@
 
 /* 4 block */
 
+.menu > .container {
+    display: flex;
+    height: 900px;
+    background-image: url("../src/images/rom.webp");
+}
 
+.watermark {
+    position: absolute;
+    left: 130px;
+}
+
+.menu-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 70px;
+}
+
+.menu-list_box {
+    margin-top: 230px;
+    margin-left: 100px;
+}
+
+.menu-item {
+    font-family: Cormorant Upright;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+    letter-spacing: 3%;
+}
+
+.menu-link {
+    color: white;
+    text-decoration: none;
+}
 
 /* 5 block */
 
