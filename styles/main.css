@@ -144,10 +144,6 @@
     width: 523px;
 }
 
-.AboutUs-spoon{
-    margin-left: 400px;
-}
-
 .AboutUs_History-btn1{
     width: 141px;
     height: 44px;
@@ -155,7 +151,6 @@
     color: black;
     background-color: var(--brand-light);
     border: none;
-    margin-left: 400px;
 }
 
 .AboutUs_History-btn2{
