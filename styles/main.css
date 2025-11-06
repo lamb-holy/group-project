@@ -98,21 +98,97 @@
 
 /* 2 block */
 
-.AboutUs_History{
+.AboutUs_History > .container{
     width: auto;
     height: 957px;
     display: flex;
     flex-direction: row;
-    background-image: url("./src/images/background.webp");
+    flex-wrap: nowrap;
+    text-align: center;
+    justify-content: space-around;
+    background-image: url("../src/images/BG.webp");
+    border: solid 3px white;
 }
 
 .aboutUs{
+    width: 523px;
+    height: auto;
     display: flex;
-    justify-content: flex-end;
     flex-direction: column;
-    gap: 40px;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 20px;
+    border: solid 3px white;
 }
 
+.ourHistory{
+    width: 523px;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    border: solid 3px white;
+}
+
+.AboutUs-top{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 64px;
+    text-align: right;
+}
+
+.History-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 64px;
+    text-align: left;
+}
+
+.AboutUs-top:nth-child(2){
+    border: solid 2px white;
+    margin-bottom: 20px;
+}
+
+.AboutUs-text{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    text-align: right;
+}
+
+.History-text{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+}
+
+.AboutUs_History-btn2{
+    width: 141px;
+    height: 44px;
+    background-color: var(--brand-light);
+}
+
+.AboutUs_History-btn1{
+    width: 141px;
+    height: 44px;
+    background-color: var(--brand-light);
+}
+
+.image-knife{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border: solid 2px white;
+}
 
 
 
