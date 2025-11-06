@@ -98,69 +98,22 @@
 
 /* 2 block */
 
-.AboutUs_History > .container{
+.AboutUs_History{
     width: auto;
-    height: 960px;
+    height: 957px;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    background-image: url("../src/images/background.webp");
+    background-image: url("./src/images/background.webp");
 }
-
 
 .aboutUs{
     display: flex;
-    flex-direction: column;
-    text-align: end;
     justify-content: flex-end;
-    width: 523px;
-    gap: 32px;
-}
-
-.ourHistory{
-    display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    width: 523px;
-    gap: 32px;
+    gap: 40px;
 }
 
-.AboutUs_History-top{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-}
 
-.AboutUs_History-tittle{
-    font-family: Cormorant Upright;
-    font-weight: 600;
-    font-size: 64px;
-    line-height: 130%;
-    color: var(--brand-light);
-}
-
-.AboutUs_History-tittle{
-    width: 523px;
-}
-
-.AboutUs_History-btn1{
-    width: 141px;
-    height: 44px;
-    font-family: Cormorant Upright;
-    color: black;
-    background-color: var(--brand-light);
-    border: none;
-}
-
-.AboutUs_History-btn2{
-    width: 141px;
-    height: 44px;
-    font-family: Cormorant Upright;
-    color: black;
-    background-color: var(--brand-light);
-    border: none;
-}
 
 
 /* 3 block */
