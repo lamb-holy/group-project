@@ -192,8 +192,10 @@
 /* 3 block */
 .table > .container{
     width: auto;
+    height: 648px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 
@@ -203,12 +205,10 @@
     justify-content: center;
     width: 1364px;
     height: 466px;
+    border: solid 2px rgba(220, 202, 135, 0.2);
+    background-color: #0c0c0c;
 }
 
-.BookATable{
-    display: flex;
-    justify-content: center;
-}
 
 .BookATable h3{
     font-family: Cormorant Upright;
@@ -228,14 +228,14 @@
 
 .table-form{
     display: flex;
-    gap: 32px;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 .form{
     width: 412px;
     height: 60px;
-    background-color: var(--background-color);
+    background-color: #0c0c0c;
     border: solid 1px var(--brand-light);
     color: var(--gray-text);
     font-family: Cormorant Upright;
@@ -319,7 +319,7 @@
 .chefTop{
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 1px;
 }
 
 .chefSubtitle{
@@ -327,11 +327,6 @@
     font-weight: 700;
     font-size: 23px;
     color: #fff;
-}
-
-svg{
-    width: 40px;
-    height: 9px;
 }
 
 .chefTitle{
