@@ -303,9 +303,17 @@
 .chef > .container{
     display: flex;
     align-items: center;
+    justify-content: center;
     width: auto;
-    height: 100%;
+    height: 1056px;
     gap: 96px;
+    background-image: url("../src/images/BG.webp");
+}
+
+.chefWord{
+    display: flex;
+    flex-direction: column;
+
 }
 
 .chefSubtitle{
@@ -323,6 +331,7 @@
 }
 
 .chefText{
+    width: 570px;
     font-family: var(--second-family);
     font-style: italic;
     font-weight: 400;
@@ -330,9 +339,16 @@
     color: #aaa;
 }
 
-/* .chefText::before{
+.chefText::before{
     content: url("../src/images/“.png");
-} */
+}
+
+.chefsName{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 72px;
+}
 
 .chefNameTitle{
     font-family: var(--font-family);
