@@ -107,7 +107,6 @@
     text-align: center;
     justify-content: space-around;
     background-image: url("../src/images/BG.webp");
-    border: solid 3px white;
 }
 
 .aboutUs{
@@ -118,7 +117,6 @@
     align-items: flex-end;
     justify-content: center;
     gap: 20px;
-    border: solid 3px white;
 }
 
 .ourHistory{
@@ -129,7 +127,6 @@
     justify-content: center;
     flex-direction: column;
     gap: 20px;
-    border: solid 3px white;
 }
 
 .AboutUs-top{
@@ -139,6 +136,7 @@
     font-weight: 500;
     font-size: 64px;
     text-align: right;
+    color: var(--brand-light);
 }
 
 .History-top{
@@ -149,10 +147,10 @@
     font-weight: 500;
     font-size: 64px;
     text-align: left;
+    color: var(--brand-light);
 }
 
 .AboutUs-top:nth-child(2){
-    border: solid 2px white;
     margin-bottom: 20px;
 }
 
@@ -187,7 +185,6 @@
     justify-content: center;
     align-items: center;
     height: 100%;
-    border: solid 2px white;
 }
 
 
@@ -303,6 +300,27 @@
 
 /* 6 block */
 
+.chef > .container{
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 100%;
+    gap: 96px;
+}
+
+.chefSubtitle{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 23px;
+    color: #fff;
+}
+
+.chefTitle{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 64px;
+    color: var(--brand-light);
+}
 
 
 /* 7 block */
