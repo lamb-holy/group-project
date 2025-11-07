@@ -330,6 +330,20 @@
     color: #aaa;
 }
 
+.chefText::before{
+    content: url("../src/images/“.png");
+}
+
+.chefsName:first-child{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: var(--brand-light);
+}
+
 
 /* 7 block */
 
@@ -361,5 +375,3 @@
 
 
 /* 13 block */
-
-
