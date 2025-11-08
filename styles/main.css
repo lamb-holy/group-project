@@ -100,79 +100,102 @@
 
 .AboutUs_History > .container{
     width: auto;
-    height: 960px;
+    height: 957px;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    flex-wrap: nowrap;
+    text-align: center;
     justify-content: space-around;
-    background-image: url("../src/images/background.webp");
+    background-image: url("../src/images/BG.webp");
 }
 
-
 .aboutUs{
+    width: 523px;
+    height: auto;
     display: flex;
     flex-direction: column;
-    text-align: end;
-    justify-content: flex-end;
-    width: 523px;
-    gap: 32px;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 20px;
 }
 
 .ourHistory{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
     width: 523px;
-    gap: 32px;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
 }
 
-.AboutUs_History-top{
+.AboutUs-top{
     display: flex;
     flex-direction: column;
-    gap: 30px;
-}
-
-.AboutUs_History-tittle{
-    font-family: Cormorant Upright;
-    font-weight: 600;
+    font-family: var(--font-family);
+    font-weight: 500;
     font-size: 64px;
-    line-height: 130%;
+    text-align: right;
     color: var(--brand-light);
 }
 
-.AboutUs_History-tittle{
-    width: 523px;
+.History-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 64px;
+    text-align: left;
+    color: var(--brand-light);
 }
 
-.AboutUs-spoon{
-    margin-left: 400px;
+.AboutUs-top:nth-child(2){
+    margin-bottom: 20px;
 }
 
-.AboutUs_History-btn1{
-    width: 141px;
-    height: 44px;
-    font-family: Cormorant Upright;
-    color: black;
-    background-color: var(--brand-light);
-    border: none;
-    margin-left: 400px;
+.AboutUs-text{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    text-align: right;
+}
+
+.History-text{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
 }
 
 .AboutUs_History-btn2{
     width: 141px;
     height: 44px;
-    font-family: Cormorant Upright;
-    color: black;
     background-color: var(--brand-light);
-    border: none;
 }
+
+.AboutUs_History-btn1{
+    width: 141px;
+    height: 44px;
+    background-color: var(--brand-light);
+}
+
+.image-knife{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
 
 
 /* 3 block */
 .table > .container{
     width: auto;
+    height: 648px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 
@@ -180,12 +203,16 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     width: 1364px;
     height: 466px;
+    border: solid 2px rgba(220, 202, 135, 0.2);
+    background-color: #0c0c0c;
 }
 
 .BookATable{
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
@@ -205,22 +232,17 @@
     color: var(--brand-light)
 }
 
-.table-form{
-    display: flex;
-    gap: 32px;
-    flex-direction: row;
-}
+
 
 .form{
     width: 412px;
     height: 60px;
-    background-color: var(--background-color);
+    background-color: #0c0c0c;
     border: solid 1px var(--brand-light);
     color: var(--gray-text);
     font-family: Cormorant Upright;
     font-weight: 600;
     font-size: 16px;
-    line-height: 175%;
 }
 
 .table-btn{
@@ -279,6 +301,75 @@
 
 /* 6 block */
 
+.chef > .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 1056px;
+    gap: 96px;
+    background-image: url("../src/images/BG.webp");
+}
+
+.chefWord{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.chefTop{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.chefSubtitle{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 23px;
+    color: #fff;
+}
+
+.chefTitle{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 64px;
+    color: var(--brand-light);
+}
+
+.chefText{
+    width: 570px;
+    font-family: var(--second-family);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    color: #aaa;
+}
+
+.chefText::before{
+    content: url("../src/images/“.png");
+}
+
+.chefsName{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 72px;
+}
+
+.chefNameTitle{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 32px;
+    color: var(--brand-light);
+}
+
+.chefNameSubtitle{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: #aaa;
+}
 
 
 /* 7 block */
@@ -311,5 +402,3 @@
 
 
 /* 13 block */
-
-
