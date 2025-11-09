@@ -239,11 +239,18 @@
     width: 412px;
     height: 60px;
     background-color: #0c0c0c;
-    border: solid 1px var(--brand-light);
+    border: solid 1px #bdbab1;
     color: var(--gray-text);
     font-family: Cormorant Upright;
     font-weight: 600;
     font-size: 16px;
+}
+
+.table-btn_box {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
 }
 
 .table-btn{
