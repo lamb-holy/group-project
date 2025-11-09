@@ -222,6 +222,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: -10px;
+}
+
+.BookATableTop svg{
+    margin-top: -10px;
 }
 
 .BookATable h3{
@@ -229,14 +234,14 @@
     font-weight: 700;
     font-size: 23px;
     color: white;
-    margin-top: 10px;
+    
 }
 
 .BookATable h2{
     font-family: Cormorant Upright;
     font-weight: 600;
     font-size: 64px;
-    color: var(--brand-light)
+    color: var(--brand-light);
 }
 
 
@@ -391,6 +396,16 @@
 
 /* 7 block */
 
+.customers > .container{
+    display: flex;
+    justify-content: center;
+}
+
+.customersTop{
+    display: flex;
+    flex-direction: column;
+    
+}
 
 
 /* 8 block */
