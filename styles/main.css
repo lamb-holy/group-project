@@ -407,6 +407,22 @@
     
 }
 
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 32px;
+    grid-row-gap: 82px;
+}
+
+.wadeWarren1 { grid-area: 1 / 1 / 2 / 2; }
+
+.janeCooper2 { grid-area: 1 / 2 / 2 / 3; }
+
+.robertFox3 { grid-area: 2 / 1 / 3 / 2; }
+
+.brooklynSimmons4 { grid-area: 2 / 2 / 3 / 3; }
+
 
 /* 8 block */
 
