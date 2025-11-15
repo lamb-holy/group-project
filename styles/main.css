@@ -132,20 +132,20 @@
 .AboutUs-top{
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 64px;
     text-align: right;
     color: var(--brand-light);
+    margin-bottom: 30px;
 }
 
 .AboutUs_History-tittle{
-    margin-bottom: -100px;
+    margin-bottom: 20px;
 }
 
-.AboutUs_History-svg{
-    margin-top: -100px;
-}
 
 .History-top{
     display: flex;
@@ -156,6 +156,7 @@
     font-size: 64px;
     text-align: left;
     color: var(--brand-light);
+    margin-bottom: 30px;
 }
 
 .AboutUs-top:nth-child(2){
@@ -193,6 +194,7 @@
     justify-content: center;
     align-items: center;
     height: 100%;
+    margin: 5px 0px 5px 0px;
 }
 
 
