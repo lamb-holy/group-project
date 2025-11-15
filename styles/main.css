@@ -411,18 +411,20 @@
     align-items: center;
 }
 
-.customersTop:first-child{
+.customersTop-subtitle{
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 23px;
     color: #ffffff;
+    margin-top: -10px;
 }
 
 .customersTop-title{
     font-family: var(--font-family);
     font-weight: 600;
     font-size: 64px;
-    color: var(brand-light);
+    color: var(--brand-light);
+    margin-bottom: -10px;
 }
 
 .parent {
@@ -493,8 +495,15 @@
 }
 
 .card-svg{
-    position: static;
+    position: relative;
+    left: 165px;
+    bottom: 20px
+}
 
+.watermark-customers{
+    position: absolute;
+    left: 1000px;
+    bottom: 50px;
 }
 
 /* 8 block */
