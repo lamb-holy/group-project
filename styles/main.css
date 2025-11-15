@@ -411,11 +411,24 @@
     align-items: center;
 }
 
+.customersTop:first-child{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 23px;
+    color: #ffffff;
+}
+
+.customersTop-title{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 64px;
+    color: var(brand-light);
+}
+
 .parent {
     display: grid;
     margin-left: 400px;
     margin-right: 400px;
-    border: solid 2px white;
     width: 1300px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -461,6 +474,7 @@
     font-weight: 400;
     font-size: 16px;
     color: var(--gray-text);
+    width: 412px;
 }
 
 .card-title{
@@ -475,6 +489,12 @@
     font-weight: 400;
     font-size: 16px;
     color: #f5efdb;
+    margin-top: -20px;
+}
+
+.card-svg{
+    position: static;
+
 }
 
 /* 8 block */
