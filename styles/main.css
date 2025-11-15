@@ -139,6 +139,14 @@
     color: var(--brand-light);
 }
 
+.AboutUs_History-tittle{
+    margin-bottom: -100px;
+}
+
+.AboutUs_History-svg{
+    margin-top: -100px;
+}
+
 .History-top{
     display: flex;
     flex-direction: column;
@@ -279,6 +287,11 @@
     color: black;
 }
 
+.watermark-BookATable{
+    position: relative;
+    left: 1500px;
+}
+
 /* 4 block */
 
 .menu > .container {
@@ -402,6 +415,7 @@
     height: 1000px; 
     width: auto;
     flex-direction: column;
+    gap: 32px;
 }
 
 .customersTop{
@@ -409,6 +423,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
 
 .customersTop-subtitle{
@@ -424,7 +439,7 @@
     font-weight: 600;
     font-size: 64px;
     color: var(--brand-light);
-    margin-bottom: -10px;
+    margin-top: -10px;
 }
 
 .parent {
@@ -491,7 +506,6 @@
     font-weight: 400;
     font-size: 16px;
     color: #f5efdb;
-    margin-top: -20px;
 }
 
 .card-svg{
@@ -501,15 +515,25 @@
 }
 
 .watermark-customers{
-    position: absolute;
-    left: 1000px;
-    bottom: 50px;
+    position: relative;
+    left: 1500px;
+    bottom: 900px;
 }
 
 /* 8 block */
 
+.video{
+    display: flex;
+    width: 100%;
+    height: 763px;
+    background: url("../src/images/Video.webp") center / cover no-repeat;
+}
 
-
+.watermark-video{
+    position: relative;
+    left: 70px;
+    top: 200px;
+}
 
 /* 9 block */
 
