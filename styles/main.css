@@ -351,7 +351,6 @@
 .chefWord{
     display: flex;
     flex-direction: column;
-
 }
 
 .chefTop{
@@ -414,7 +413,7 @@
 .customers > .container{
     display: flex;
     justify-content: center;
-    height: 1000px; 
+    height: 1017px;
     width: auto;
     flex-direction: column;
     gap: 32px;
