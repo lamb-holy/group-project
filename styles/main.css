@@ -170,7 +170,7 @@
 
 .AboutUs-text{
     font-family: var(--second-family);
-    color: #AAAAAA;
+    color: var(--gray-text);
     line-height: 175%;
     font-weight: 400;
     font-size: 16px;
@@ -179,7 +179,7 @@
 
 .History-text{
     font-family: var(--second-family);
-    color: #AAAAAA;
+    color: var(--gray-text);
     line-height: 175%;
     font-weight: 400;
     font-size: 16px;
@@ -342,13 +342,22 @@
 .menu-link {
     color: white;
     text-decoration: none;
+    transition: text-decoration-color 0.2s ease;
+}
+
+.menu-link:hover {
+    text-decoration: underline;
 }
 
 
 /* 5 block */
 
 .special > .container {
-    height: 970px;
+    padding: 100px 0px 150px 0px;
+}
+
+.all-menu {
+    height: 730px;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -356,13 +365,115 @@
 
 .special-name {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
 }
 
 .special-suptitle {
+    display: flex;
+    justify-content: center;
     font-weight: 700;
     font-size: 23px;
+    line-height: 130%;
+    letter-spacing: 4%;
+    text-transform: capitalize;
+
 }
+
+.spoon {
+    display: flex;
+    justify-content: center;
+}
+
+.special-title {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+    letter-spacing: 4%;
+    text-align: center;
+    color: var(--brand-light);
+}
+
+.menu-right-list, .menu-left-list {
+    list-style: none;
+}
+
+.shaker-img {
+    margin-left: 30px;
+}
+
+.menu-right-item, .menu-left-item {
+    margin-bottom: 40px;
+}
+
+.menu-left, .menu-right {
+    width: 412px;
+    height: 596px;
+}
+
+.menu-section_title {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 130%;
+    letter-spacing: 4%;
+    text-align: center;
+}
+
+.line {
+  height: 1px;
+  background-color: #fff;
+  opacity: 0.5;
+  flex-grow: 1;
+}
+
+.menu-drink {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.menu-item_name {
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    letter-spacing: 4%;
+    text-transform: capitalize;
+    color: var(--brand-light);
+}
+
+.menu-item_price {
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    letter-spacing: 4%;
+    text-align: center;
+}
+
+.menu-item_type {
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 4%;
+    color: var(--gray-text);
+}
+
+.menu-vievmore_wrap {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.menu-viewmore_btn {    
+    width: 141px;
+    height: 44px;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: var(--brand-light);
+}
+
+
 
 
 
@@ -374,7 +485,7 @@
     justify-content: center;
     height: 1056px;
     gap: 96px;
-    background-image: url("../src/images/BG.webp");
+    background: url("../src/images/BG.webp") center / cover no-repeat;
 }
 
 .chefWord{
@@ -565,6 +676,25 @@
 
 /* 9 block */
 
+.laurels > .container {
+    display: flex;
+    flex-direction: row;
+    height: 947px;
+    background: url("../src/images/background.webp") center / cover no-repeat;
+}
+
+.laurels-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 40px;
+}
+
+.laurel-card1 { grid-area: 1 / 1 / 2 / 2; }
+.laurel-card2 { grid-area: 1 / 2 / 2 / 3; }
+.laurel-card3 { grid-area: 2 / 1 / 3 / 2; }
+.laurel-card4 { grid-area: 2 / 2 / 3 / 3; }
 
 
 
