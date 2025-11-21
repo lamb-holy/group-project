@@ -72,6 +72,12 @@
     color: var(--background-color);
     background-color: var(--brand-light);
     padding: 8px 30px;
+    border: 0px;
+}
+
+.explore_btn:hover {
+    background-color: #665a31;
+    color: white;
 }
 
 .scroll {
@@ -192,6 +198,12 @@
     font-weight: 700;
     font-size: 16px;
     background-color: var(--brand-light);
+    border: 0px;
+}
+
+.AboutUs_History-btn1:hover, .AboutUs_History-btn2:hover{
+    background-color: #665a31;
+    color: white;
 }
 
 .AboutUs_History-btn1{
@@ -200,6 +212,7 @@
     font-weight: 700;
     font-size: 16px;
     background-color: var(--brand-light);
+    border: 0px;
 }
 
 .image-knife{
@@ -299,6 +312,11 @@
     font-size: 16px;
     line-height: 175%;
     color: black;
+}
+
+.table-btn:hover {
+    background-color: #665a31;
+    color: white;
 }
 
 .watermark-BookATable{
@@ -471,6 +489,12 @@
     font-weight: 700;
     font-size: 16px;
     background-color: var(--brand-light);
+    border: 0px;
+}
+
+.menu-viewmore_btn:hover {
+    background-color: #665a31;
+    color: white;
 }
 
 
@@ -679,22 +703,102 @@
 .laurels > .container {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     height: 947px;
     background: url("../src/images/background.webp") center / cover no-repeat;
 }
 
+.laurels-suptitle {
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 100%;
+    letter-spacing: 4%;
+}
+
+.laurels-title {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: 3%;
+    color: var(--brand-light);
+}
+
 .laurels-list {
     display: grid;
+    width: 634px;
+    height: 400px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 20px;
     grid-row-gap: 40px;
+    margin-right: 80px;
 }
 
 .laurel-card1 { grid-area: 1 / 1 / 2 / 2; }
+
+.laurel-card1{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
 .laurel-card2 { grid-area: 1 / 2 / 2 / 3; }
+
+.laurel-card2{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
 .laurel-card3 { grid-area: 2 / 1 / 3 / 2; }
+
+.laurel-card3{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
 .laurel-card4 { grid-area: 2 / 2 / 3 / 3; }
+
+.laurel-card4{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.laurel-place {
+    margin-top: 30px;
+    width: 79px;
+    height: 79px;
+}
+
+.laurels-image {
+    position: relative;
+    margin-left: 80px;
+}
+
+.letter-G {
+    position: absolute;
+    top: 310px;
+    right: 200px;
+}
+
+.laurel_name {
+    font-weight: 700;
+    font-size: 23px;
+    letter-spacing: 4%;
+    color: var(--brand-light)
+}
+
+.laurel-lorem {
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 4%;
+    color: var(--gray-text)
+}
 
 
 
