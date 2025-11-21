@@ -3,7 +3,6 @@ header > .container {
     justify-content: space-between;
     font-family: Open Sans;
     margin: 40px;
-    width: auto;
     height: 30px;
 }
 

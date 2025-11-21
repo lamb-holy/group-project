@@ -62,7 +62,7 @@
 
 .explore_btn {
     position: absolute;
-    top: 750px;
+    top: 780px;
     left: 300px;
     font-family: Cormorant Upright;
     font-weight: 700;
@@ -99,14 +99,16 @@
 /* 2 block */
 
 .AboutUs_History > .container{
-    width: auto;
     height: 957px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     text-align: center;
-    justify-content: space-around;
-    background-image: url("../src/images/BG.webp");
+    justify-content: center;
+    background-image: url("../src/images/G.webp"), url("../src/images/BG.webp");
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto, cover;
 }
 
 .aboutUs{
@@ -143,6 +145,9 @@
 }
 
 .AboutUs_History-tittle{
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 130%;
     margin-bottom: 20px;
 }
 
@@ -165,6 +170,8 @@
 
 .AboutUs-text{
     font-family: var(--second-family);
+    color: #AAAAAA;
+    line-height: 175%;
     font-weight: 400;
     font-size: 16px;
     text-align: right;
@@ -172,6 +179,8 @@
 
 .History-text{
     font-family: var(--second-family);
+    color: #AAAAAA;
+    line-height: 175%;
     font-weight: 400;
     font-size: 16px;
     text-align: left;
@@ -180,12 +189,16 @@
 .AboutUs_History-btn2{
     width: 141px;
     height: 44px;
+    font-weight: 700;
+    font-size: 16px;
     background-color: var(--brand-light);
 }
 
 .AboutUs_History-btn1{
     width: 141px;
     height: 44px;
+    font-weight: 700;
+    font-size: 16px;
     background-color: var(--brand-light);
 }
 
@@ -194,14 +207,13 @@
     justify-content: center;
     align-items: center;
     height: 100%;
-    margin: 5px 0px 5px 0px;
+    margin: 5px 70px 5px 70px;
 }
 
 
 
 /* 3 block */
 .table > .container{
-    width: auto;
     height: 648px;
     display: flex;
     justify-content: center;
@@ -332,7 +344,25 @@
     text-decoration: none;
 }
 
+
 /* 5 block */
+
+.special > .container {
+    height: 970px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.special-name {
+    display: flex;
+    justify-content: center;
+}
+
+.special-suptitle {
+    font-weight: 700;
+    font-size: 23px;
+}
 
 
 
@@ -342,7 +372,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: auto;
     height: 1056px;
     gap: 96px;
     background-image: url("../src/images/BG.webp");
@@ -414,7 +443,6 @@
     display: flex;
     justify-content: center;
     height: 1017px;
-    width: auto;
     flex-direction: column;
     gap: 32px;
 }
@@ -525,7 +553,6 @@
 
 .video{
     display: flex;
-    width: 100%;
     height: 763px;
     background: url("../src/images/Video.webp") center / cover no-repeat;
 }
