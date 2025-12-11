@@ -4,6 +4,7 @@ footer {
     padding: 64px 20px 32px;
     font-family: 'Open Sans', sans-serif;
     position: relative;
+    background: url("../src/images/background.webp") center / cover no-repeat;
 }
 
 .footer-container {
